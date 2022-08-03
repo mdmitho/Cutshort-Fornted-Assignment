@@ -8,7 +8,9 @@ const Page1 = () => {
         <div class=" hero min-h-screen bg-base-100">
           <div class="hero-content ">
             <div class="card  w-96   bg-base-100">
+
               {/* Logo and Eden start */}
+
               <div className="flex justify-center">
                 <div className="w-12">
                   <img src={logo} alt="" />
@@ -17,8 +19,11 @@ const Page1 = () => {
                   <h1 className="text-xl font-bold mt-2">Eden</h1>
                 </div>
               </div>
+
               {/* Logo and Eden end */}
+
               {/* steps start */}
+
               <div className="my-8">
                 <ul class="steps">
                   <li class="step step-primary"></li>
@@ -27,12 +32,16 @@ const Page1 = () => {
                   <li class="step"></li>
                 </ul>
               </div>
+
               {/* steps end */}
+
               <div className="">
                 <h1 className="text-2xl font-bold">Welcome! First thing first...</h1>
                 <p className="mt-2 text-base-300">You can always change them later.</p>
               </div>
+
               {/* from start */}
+
               <div class="card-body">
                 <div class="form-control">
                   <label class="label">
@@ -53,6 +62,7 @@ const Page1 = () => {
                   </Link>
                 </div>
               </div>
+              
               {/* from end */}
             </div>
           </div>

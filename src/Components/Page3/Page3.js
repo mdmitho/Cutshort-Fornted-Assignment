@@ -10,7 +10,9 @@ const Page3 = () => {
         <div class=" hero min-h-screen bg-base-100">
           <div class="hero-content ">
             <div class="card  w-3/5   bg-base-100">
+
               {/* Logo and Eden start */}
+
               <div className="flex justify-center">
                 <div className="w-12">
                   <img src={logo} alt="" />
@@ -19,8 +21,11 @@ const Page3 = () => {
                   <h1 className="text-xl font-bold mt-2">Eden</h1>
                 </div>
               </div>
+
               {/* Logo and Eden end */}
+
               {/* steps start */}
+
               <div className="my-8">
                 <ul class="steps">
                   <li class="step step-primary"></li>
@@ -29,14 +34,18 @@ const Page3 = () => {
                   <li class="step"></li>
                 </ul>
               </div>
+
               {/* steps end */}
+
               <div className="">
                 <h1 className="text-xl font-bold">How are you planning to use Eden?</h1>
                 <p className="mt-2 text-xs text-base-300">
                   We'll streamline your setup experience accordingly.
                 </p>
               </div>
-              {/* from start */}
+
+              {/* for myself and With my team start */}
+              
               <div class="card-body">
                 <div className="flex gap-4">
                   <div className="text-left border p-6 rounded w-full">
@@ -63,7 +72,9 @@ const Page3 = () => {
                   </Link>
                 </div>
               </div>
-              {/* from end */}
+
+              {/* for myself and With my team end */}
+
             </div>
           </div>
         </div>
