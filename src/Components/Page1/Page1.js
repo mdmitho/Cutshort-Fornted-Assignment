@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../img/Logo-icon.png'
 
-const Page1 = () => {
+const Page1 = () => { 
     return (
       <div>
         <div class=" hero min-h-screen bg-base-100">
@@ -30,29 +30,21 @@ const Page1 = () => {
               {/* steps end */}
               <div className="">
                 <h1 className="text-2xl font-bold">Welcome! First thing first...</h1>
-                <p className="mt-2">You can always change them later.</p>
+                <p className="mt-2 text-base-300">You can always change them later.</p>
               </div>
               {/* from start */}
               <div class="card-body">
                 <div class="form-control">
                   <label class="label">
-                    <span class="label-text">Full Name</span>
+                    <span class="label-text font-bold">Full Name</span>
                   </label>
-                  <input
-                    type="text"
-                    placeholder="Steve Jobs"
-                    class="input input-bordered rounded-none "
-                  />
+                  <input type="text" placeholder="Steve Jobs" class="input input-bordered  " />
                 </div>
                 <div class="form-control">
                   <label class="label">
-                    <span class="label-text">Display Name</span>
+                    <span class="label-text font-bold">Display Name</span>
                   </label>
-                  <input
-                    type="text"
-                    placeholder="Steve"
-                    class="input input-bordered rounded-none"
-                  />
+                  <input type="text" placeholder="Steve" class="input input-bordered " />
                   <label class="label"></label>
                 </div>
                 <div class="form-control mt-5">
