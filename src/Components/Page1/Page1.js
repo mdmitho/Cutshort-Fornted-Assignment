@@ -1,14 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import { Link} from 'react-router-dom';
 import logo from '../../img/Logo-icon.png'
 
 const Page1 = () => { 
+ 
+
+
     return (
       <div>
         <div class=" hero min-h-screen bg-base-100">
           <div class="hero-content ">
             <div class="card  w-96   bg-base-100">
-
               {/* Logo and Eden start */}
 
               <div className="flex justify-center">
@@ -43,26 +46,41 @@ const Page1 = () => {
               {/* from start */}
 
               <div class="card-body">
-                <div class="form-control">
-                  <label class="label">
-                    <span class="label-text font-bold">Full Name</span>
-                  </label>
-                  <input type="text" placeholder="Steve Jobs" class="input input-bordered  " />
-                </div>
-                <div class="form-control">
-                  <label class="label">
-                    <span class="label-text font-bold">Display Name</span>
-                  </label>
-                  <input type="text" placeholder="Steve" class="input input-bordered " />
-                  <label class="label"></label>
-                </div>
-                <div class="form-control mt-5">
-                  <Link to="/page2">
-                    <button class="btn btn-primary w-full text-white">Create workspace</button>
-                  </Link>
-                </div>
+                <form>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text font-bold">Full Name</span>
+                    </label>
+                    <input
+                      type="text"
+                      id="name"
+                      placeholder="Steve Jobs"
+                      class="input input-bordered  "
+                    />
+                    
+                  </div>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text font-bold">Display Name</span>
+                    </label>
+                    <input
+                      type="text"
+                      name="displayName"
+                      placeholder="Steve"
+                      class="input input-bordered "
+                    />
+                    <label class="label"></label>
+                  </div>
+                  <div class="form-control mt-5">
+                    <Link to="/page2">
+                    <button type="submit" class="btn btn-primary w-full text-white">
+                      Create workspace
+                    </button>
+                    </Link>
+                  </div>
+                </form>
               </div>
-              
+
               {/* from end */}
             </div>
           </div>

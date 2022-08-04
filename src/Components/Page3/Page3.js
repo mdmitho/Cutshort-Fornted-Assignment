@@ -48,7 +48,7 @@ const Page3 = () => {
               
               <div class="card-body">
                 <div className="flex gap-4">
-                  <div className="text-left border p-6 rounded w-full">
+                  <div className="text-left border border-primary p-6 rounded w-full">
                     <FontAwesomeIcon
                       className="m-2 h-5 text-primary"
                       icon={faUser}
